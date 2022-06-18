@@ -32,7 +32,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           exercise.bodyPart.toLowerCase().includes(search)
       );
       setSearch('');
-      setExercises(SearchExercises);
+      setExercises(searchedExercises);
     }
   };
   return (
